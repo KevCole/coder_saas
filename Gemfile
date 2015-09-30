@@ -12,6 +12,9 @@ group :production do
   gem 'rails_12factor'
 end
 
+#Use font awesome library for various fonts and logos
+gem 'font-awesome-sass'
+
 #Use bootstrap lib for style
 gem 'bootstrap-sass', '3.3.1'
 
