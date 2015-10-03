@@ -2,3 +2,21 @@
     <h1> Welcome to Dev Match </h1>
     <h3>A membership site where entrpreneurs can meet developers</h3>
 </div>
+
+    <div class="row">
+       <div class = "col-md-6 text-center">
+           <div class="well">
+                 <h2> Basic Membership </h2>
+                 <h4>Sign up for basic access to the community</h4>
+                 <%= link_to "Become A Basic Member", new_user_registration_path, class:"btn btn-primary btn-lg btn-block"%>
+           </div>
+       </div> 
+
+       <div class="col-md-6 text-center">
+           <div class="well">
+              <h2> Pro Membership</h2>
+              <h4> Sign up for $5/month to access community & contact info!</h4>
+              <%= link_to "Become A Pro Member", new_user_registration_path, class:"btn btn-success btn-lg btn-block"%>
+           </div>
+       </div> 
+    </div>
