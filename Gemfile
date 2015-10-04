@@ -12,12 +12,6 @@ group :production do
   gem 'rails_12factor'
 end
 
-#Use stripe for handling payments
-gem 'stripe', '1.27.2'
-
-#Use figaro to hide seret keys
-gem 'figaro'
-
 #Use font awesome library for various fonts and logos
 gem 'font-awesome-sass'
 
@@ -32,6 +26,12 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+
+#Use stripe for handling payments
+gem 'stripe', '1.16.1'
+
+#Use figaro to hide seret keys
+gem 'figaro','1.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
